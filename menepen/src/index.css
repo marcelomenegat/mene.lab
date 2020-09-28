@@ -26,6 +26,7 @@ body {
 
 .e-container.collapsed .codeMirror-scroll {
   position: absolute;
+  overflow: hidden !important;
 }
 
 .e-title {
@@ -48,4 +49,11 @@ body {
   border-top-right-radius: .5rem;
   border-bottom-left-radius: .5rem;
   overflow: hidden;
+}
+
+.expand-collapse-btn {
+  margin-left: .5rem;
+  background: none;
+  color: white;
+  cursor: pointer;
 }
